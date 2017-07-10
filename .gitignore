@@ -3,3 +3,4 @@ output/
 testfirst/
 voce/
 pelican-plugins/
+__pycache__/
