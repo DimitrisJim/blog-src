@@ -1,0 +1,5 @@
+# Don't track the output, the testfirst dir, voce plugin and pelican plugins
+output/
+testfirst/
+voce/
+pelican-plugins/
