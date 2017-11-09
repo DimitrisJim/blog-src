@@ -4,7 +4,7 @@ Hello again, Pelican!
 :date: 2017-8-03
 :tags: misc
 :category: misc
-:slug: hello-pelican
+:slug: hello-pelicano
 :authors: Jim Fasarakis-Hilliard
 
 .. :modified: 2010-10-04 18:40
