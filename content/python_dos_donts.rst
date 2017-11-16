@@ -6,5 +6,6 @@ Python Do's and Don'ts
 :category: coding
 :slug: python-dos-donts
 :authors: Jim Fasarakis-Hilliard
+:status: draft
 
 Describe all the nice easter eggs.
