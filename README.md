@@ -38,8 +38,7 @@ See **Publishing Submodule Changes** [here][1]. This goes into every submodule
 level git repository is pushed.
 
 Be careful if you make changes to any cloned repo's (voce, pelican-plugins)
-because I'm pretty certain pushing will fail there causing all the pushes to
-fail.
+because recloning afterwards will obviously not keep those changes around.
 
 ---
 

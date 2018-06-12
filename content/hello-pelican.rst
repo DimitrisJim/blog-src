@@ -41,5 +41,4 @@ Let's see that code-snippet:
    If the implementation is easy to explain, it may be a good idea.
    Namespaces are one honking great idea -- let's do more of those!
 
-Next step is putting this up on GH pages with no hiccups. After that, I hope
-I'll make a habit out of writing things :-)
+I hope I'll make a habit out of writing things :-)
