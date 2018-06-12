@@ -44,7 +44,6 @@ PLUGINS = ['assets', 'sitemap', 'gravatar']
 
 STATIC_PATHS = ['images']
 USER_LOGO_URL = '/images/dino.gif'
-#USER_LOGO_URL = '/images/doggo_scaled.png'
 
 # Visibility on tagline.
 TAGS_URL = 'tags.html'
