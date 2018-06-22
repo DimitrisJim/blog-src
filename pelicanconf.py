@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Jim Fasarakis-Hilliard'
 SITENAME = "Couldn't be buggered"
-SITEURL = '' # 'https://dimitrisjim.github.io'
+SITEURL = 'https://dimitrisjim.github.io'
 PATH = 'content/'
 
 LOCALE = ('en_GB.utf8', 'en')
