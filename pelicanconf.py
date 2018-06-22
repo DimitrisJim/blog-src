@@ -6,6 +6,9 @@ AUTHOR = 'Jim Fasarakis-Hilliard'
 SITENAME = "Couldn't be buggered"
 SITEURL = ''
 
+GOOGLE_ANALYTICS_ID = "UA-99978854-1"
+GOOGLE_ANALYTICS_PROP = "Personal Blog"
+
 PATH = 'content'
 
 LOCALE = ('en_GB.utf8', 'en')
