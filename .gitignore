@@ -1,4 +1,3 @@
-# Don't track the output, the testfirst dir, voce plugin and pelican plugins
-voce/
+# Don't track the output, the testfirst dir, and pelican plugins
 pelican-plugins/
 __pycache__/

@@ -28,20 +28,15 @@ Then just `make html`.
 
 ##### Pushing
 
-Since we're working with a submodule, `push`ing gets a flag:
-
-```bash
-git push --recurse-submodules=on-demand
-```
-See **Publishing Submodule Changes** [here][1]. This goes into every submodule
-(see `.gitmodules`) and tries to push. If all pushes succeed then the top
-level git repository is pushed.
-
-Be careful if you make changes to any cloned repo's (voce, pelican-plugins)
-because recloning afterwards will obviously not keep those changes around.
+Push the submodule first and then push the top level module.
 
 ---
 
-I think that's all. Will update again if I find anything else.
+### Syntax Highlighting:
+
+See [codehilite][2] which is a Markdown extension. Its responsible for adding
+syntax Highlighting to code blocks.
+
 
 [1]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
+[2]: https://python-markdown.github.io/extensions/code_hilite/
