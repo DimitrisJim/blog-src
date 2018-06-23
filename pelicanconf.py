@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Jim Fasarakis-Hilliard'
 SITENAME = "Couldn't be buggered"
-SITEURL = 'https://dimitrisjim.github.io'
+SITEURL = ''
 PATH = 'content/'
 
 LOCALE = ('en_GB.utf8', 'en')
@@ -20,7 +20,6 @@ SOCIAL = (('Feed','/feeds/all.atom.xml'),
       ('Email','mailto:d.f.hilliard@gmail.com'),
       ('GitHub','https://github.com/DimitrisJim'),
       ('StackOverflow', 'https://stackoverflow.com/users/4952130/jim-fasarakis-hilliard'),
-      ('Linkedin', 'https://www.linkedin.com/in/jim-fasarakis-hilliard-b1879487/'),
       ('Instagram', 'https://www.instagram.com/jim.fh/'),
       ('Twitter', 'https://twitter.com/Dimitris__Jim'),)
 # Pagination for main page.

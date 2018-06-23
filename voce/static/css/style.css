@@ -3,7 +3,7 @@ body {
   background-color: #FFFFFF;
   word-wrap: break-word;
   /* Jim: Use Maven Pro, alter line-height and font size. */
-  font-family: 'Open Sans', sans-serif, 'Maven Pro', 'Montserrat', 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 2.2em;
   /* Jim: Removing line-height: 2em messes up all spacing. */
   line-height: 1.3em;
@@ -41,7 +41,7 @@ a:focus {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #696969;
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 30px 0;
 }
 
@@ -101,7 +101,7 @@ button,
 input,
 select,
 textarea {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 100%; /* Corrects font size not being inherited in all browsers */
   margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
   vertical-align: baseline; /* Improves appearance and consistency in all browsers */
@@ -321,7 +321,7 @@ article.post:first-child .post-inner-content {
   text-align: center;
 }
 .entry-title {
-  font-family: "Lora", serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: italic;
   /* Jim: Change margin top to 15px and make font size a bit bigger 27 -> 30. */
   margin-top: 5px;
@@ -348,7 +348,7 @@ article.post:first-child .post-inner-content {
   border-left: 2px solid #696969;
   border-right: 2px solid #696969;
   color: #696969;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 1px;
@@ -363,7 +363,7 @@ article.post:first-child .post-inner-content {
   font-weight: 700;
 }
 .comment-author .fn {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 2px;
   font-style: normal;
 }
@@ -383,7 +383,7 @@ article.post:first-child .post-inner-content {
 }
 .cat-title a {
   color: #8e6193;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
 article.post .post-categories, .post-inner-content .cat-item {
@@ -406,7 +406,7 @@ article.post .post-categories:after,
 }
 article.post .post-categories a, .post-inner-content .cat-item a{
   color: #696969;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -505,7 +505,7 @@ article.grid iframe {
 }
 .tagline {
   color: #1c202a;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 10px;
   letter-spacing: 1px;
 }
@@ -571,7 +571,7 @@ input[type=submit]:hover,
 
 .post-navigation a,
 .paging-navigation a {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   display: block;
   letter-spacing: 1px;
@@ -606,7 +606,7 @@ input[type=submit]:hover,
 }
 .navbar.navbar-default {
   background-color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 0;
   font-weight: 400;
   min-height: auto;
@@ -848,7 +848,7 @@ input[type=submit]:hover,
   overflow: hidden;
 }
 .copyright {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 10px;
 }
 .copyright,
@@ -1002,7 +1002,7 @@ input[type=submit]:hover,
 }
 
 time{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #0e94ec;
@@ -1014,7 +1014,8 @@ time{
 
 .social{
   float: right;
-  padding: 20px;
+  padding: 20px 5px 20px 5px;
+  font-size: 0.8em;
 }
 
 .social a{
