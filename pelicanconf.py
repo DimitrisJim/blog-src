@@ -6,6 +6,7 @@ AUTHOR = 'Jim Fasarakis-Hilliard'
 SITENAME = "Couldn't be buggered"
 SITEURL = ''
 PATH = 'content/'
+OUTPUT_PATH = 'testoutput/'
 
 LOCALE = ('en_GB.utf8', 'en')
 TIMEZONE = 'Europe/Athens'

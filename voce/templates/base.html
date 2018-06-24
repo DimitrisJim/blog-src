@@ -133,6 +133,7 @@
         </span><!-- end of .site-name -->
       </div><!-- end of #logo -->
         <div class="tagline">
+            <!-- Note: Need to trim this to the most popular -->
             {% if TAGS_URL %}
               {% for tag, articles in tags|sort %}
                 <a href="{{ SITEURL }}/{{ tag.url }}" {{ 'class="active"' if  output_file == tag.url }}>{{ tag }} ({{ articles|count }})</a> &#124;

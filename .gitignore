@@ -1,3 +1,4 @@
 # Don't track the output, the testfirst dir, and pelican plugins
 pelican-plugins/
 __pycache__/
+testoutput/

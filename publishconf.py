@@ -11,3 +11,5 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'https://dimitrisjim.github.io'
+# override output dir here.
+OUTPUT_PATH = 'output/'
