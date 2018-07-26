@@ -21,10 +21,12 @@ dimitrisjim.github.io, the repo that holds the data for the page.
 #### Making changes
 
 Content is in, shocker, the `content/` folder. That's where you can edit those
-`.rst` or `.md` files. After that is done you can test locally with `make serve`
-from what the `Makefile` shows (can't remember ever doing this).
+`.rst` or `.md` files. 
 
-Then just `make html`.
+After that is done you can test locally with `make html` which doesn't use the publishconf.py file 
+that has extra settings for when publishing.
+
+After that, `make publish` and push the changes.
 
 ##### Pushing
 
